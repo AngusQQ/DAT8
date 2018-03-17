@@ -18,6 +18,7 @@ import pandas as pd
 movies = pd.read_csv('imdb_1000.csv')
 movies.head()
 
+
 # use requests library to interact with a URL
 import requests
 r = requests.get('http://www.omdbapi.com/?t=the shawshank redemption&r=json&type=movie')
